@@ -46,3 +46,26 @@ The system is centered around a Rule Engine that manages multiple rule objects. 
 ### 1. Compile the Source Code
 ```bash
 g++ main.cpp Rule.cpp RuleEngine.cpp -o rulecraft
+```
+### 2. Execute the Program
+```bash
+./rulecraft
+```
+## Learning Outcomes
+- Strong understanding of Object-Oriented Programming concepts
+- Experience designing modular and extensible systems
+- Ability to model real-world policy logic in C++
+- Improved software design and problem-solving skills
+
+---
+
+## Future Enhancements
+- File-based or database-driven rule configuration
+- Priority-based rule execution
+- Logging and audit trail support
+- Graphical or web-based user interface
+
+---
+
+## Conclusion
+Rulecraft demonstrates how Object-Oriented Programming principles can be used to design scalable rule-based systems. The project emphasizes clean architecture, modularity, and extensibility, making it suitable for real-world policy-driven applications.
