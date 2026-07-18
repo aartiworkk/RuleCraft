@@ -45,7 +45,7 @@ The system is centered around a Rule Engine that manages multiple rule objects. 
 
 ### 1. Compile the Source Code
 ```bash
-g++ main.cpp Rule.cpp RuleEngine.cpp -o rulecraft
+g++ -std=c++17 main.cpp -o rulecraft
 ```
 ### 2. Execute the Program
 ```bash
